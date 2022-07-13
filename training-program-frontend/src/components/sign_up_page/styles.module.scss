@@ -1,0 +1,40 @@
+.signUpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+}
+
+.title {
+  color: #555555;
+  margin-bottom: auto;
+}
+
+.fieldsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+
+.fieldsContainer > * {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: gray;
+  color: gray;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.signUpButton {
+  border: none;
+  color: #FFFFFF;
+  background-color: #189ebc;
+  cursor: pointer;
+}
+
+.signInLink {
+  text-decoration: none;
+  color: #777777;
+}
