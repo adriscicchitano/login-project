@@ -38,3 +38,32 @@
   text-decoration: none;
   color: #777777;
 }
+
+.errorBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 85%;
+  background-color: rgb(233, 86, 86);
+  border-radius: 5px;
+}
+
+.errorTextContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.boldError {
+  font-weight: bold;
+}
+
+.closeButton{
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
